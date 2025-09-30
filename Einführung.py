@@ -32,24 +32,24 @@ y=int(y)
 z=x+y
 print(z)
 #Rechenoperationen
-Addition: +
-Subtraktion: -
-Multiplikation: *
-Division: /
-Ganzzahlige Division: //
-Modulo: %
-Exponentiation: **
+# Addition: +
+# Subtraktion: -
+# Multiplikation: *
+# Division: /
+# Ganzzahlige Division: //
+# Modulo: %
+# Exponentiation: **
 #Vergleichsoperatoren
-Gleich: ==
-Ungleich: !=
-Größer als: >
-Kleiner als: <
-Größer gleich: >=
-Kleiner gleich: <=
+# Gleich: ==
+# Ungleich: !=
+# Größer als: >
+# Kleiner als: <
+# Größer gleich: >=
+# Kleiner gleich: <=
 #Logische Operatoren
-Und: and
-Oder: or
-Nicht: not
+# Und: and
+# Oder: or
+# Nicht: not
 #If-Bedingungen
 if z>10:
     print("z ist größer als 10")
@@ -74,6 +74,11 @@ print(ergebnis)
 #Listen
 meine_liste=[1,2,3,4,5]
 print(meine_liste)
-Zugriff auf Elemente: meine_liste[0] #1
-Hinzufügen: meine_liste.append(6)
-Entfernen: meine_liste.remove(3)
+# Zugriff auf Elemente
+print(meine_liste[0]) # 1
+# Hinzufügen
+meine_liste.append(6)
+# Entfernen
+meine_liste.remove(3)
+meine_liste.pop(0) # Entfernt das erste Element
+meine_liste.sort() # Sortieren
