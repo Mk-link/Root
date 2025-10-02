@@ -17,3 +17,8 @@ def addTwoNumbers(first_number: int, second_number: int)-> int:
 
 ageMachine()
 
+print("Wie alt bist du?")
+
+age = int(input())
+      
+
