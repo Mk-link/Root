@@ -15,10 +15,14 @@ def addTwoNumbers(first_number: int, second_number: int)-> int:
     return first_number + second_number
 
 
-ageMachine()
+
 
 print("Wie alt bist du?")
-
-age = int(input())
+"""
+input function return is always a string 
+input function is something like async await in javascript 
+"""
+age_from_user = input()
+age_from_user = int(age_from_user)
       
-
+ageMachine(age_from_user)
