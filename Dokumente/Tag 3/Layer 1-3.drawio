@@ -1,0 +1,76 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Seite-1" id="YOaOrrHcT2lnRqNvzLY8">
+    <mxGraphModel dx="1426" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GZCn3zFJIxeo-w1hSShx-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GZCn3zFJIxeo-w1hSShx-1" target="GZCn3zFJIxeo-w1hSShx-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZCn3zFJIxeo-w1hSShx-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GZCn3zFJIxeo-w1hSShx-1" target="GZCn3zFJIxeo-w1hSShx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZCn3zFJIxeo-w1hSShx-1" value="Layer 1 Bitübertragungsschicht&lt;br&gt;(Physical Layer)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="320" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="GZCn3zFJIxeo-w1hSShx-2" value="Funktion&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="50" width="326" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="GZCn3zFJIxeo-w1hSShx-10" value="&lt;strong data-end=&quot;788&quot; data-start=&quot;776&quot;&gt;Wichtig:&lt;/strong&gt; Hier gibt es &lt;strong data-end=&quot;836&quot; data-start=&quot;802&quot;&gt;keine Interpretation der Daten&lt;/strong&gt; – nur die physische Übertragung von Bits." style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="439" y="300" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GZCn3zFJIxeo-w1hSShx-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GZCn3zFJIxeo-w1hSShx-8" target="GZCn3zFJIxeo-w1hSShx-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZCn3zFJIxeo-w1hSShx-8" value="Daten werden in eine Folge von 0 und 1 (Bits) umgesetzt.&#xa;&#xa;Umsetzung in elektrische Signale, Lichtimpulse oder Funkwellen, je nach Medium (Kupferkabel, Glasfaser, WLAN).&#xa;&#xa;Definiert: Spannungspegel, Modulation, Taktsignale, Stecker, Pins, Kabellängen.&#xa;&#xa;Beispiel: Ein „1“-Bit entspricht einer Spannung von +5V, ein „0“-Bit −5V." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="75" width="290" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="GZCn3zFJIxeo-w1hSShx-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GZCn3zFJIxeo-w1hSShx-13" target="GZCn3zFJIxeo-w1hSShx-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZCn3zFJIxeo-w1hSShx-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GZCn3zFJIxeo-w1hSShx-13" target="GZCn3zFJIxeo-w1hSShx-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZCn3zFJIxeo-w1hSShx-13" value="Layer 2 Sicherungsschicht&amp;nbsp;&lt;br&gt;(Data Link Layer)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="450" width="320" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="GZCn3zFJIxeo-w1hSShx-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GZCn3zFJIxeo-w1hSShx-15" target="GZCn3zFJIxeo-w1hSShx-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZCn3zFJIxeo-w1hSShx-15" value="Funktion" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="460" width="440" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="GZCn3zFJIxeo-w1hSShx-18" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="439" y="760" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GZCn3zFJIxeo-w1hSShx-16" value="Der Datenstrom aus Layer 1 wird in Frames (Rahmen) strukturiert.&#xa;&#xa;Jeder Frame enthält:&#xa;&#xa;MAC-Adressen (Absender + Empfänger) → eindeutige Gerätekennung im lokalen Netz&#xa;&#xa;Fehlererkennung (CRC-Prüfsumme) → erkennt beschädigte Frames&#xa;&#xa;Steuerinformationen (Start/Stop-Bits, Länge, VLAN-Tagging, QoS)&#xa;&#xa;Wenn ein Fehler entdeckt wird: Frame wird verworfen oder erneut angefordert (je nach Protokoll).&#xa;&#xa;Protokolle: Ethernet (IEEE 802.3), WLAN (802.11), PPP, HDLC." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="480" width="416" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="GZCn3zFJIxeo-w1hSShx-19" value="Wichtig: Layer 2 sorgt dafür, dass Geräte innerhalb eines lokalen Netzwerks verlässlich miteinander reden können." style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="454" y="770" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GZCn3zFJIxeo-w1hSShx-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GZCn3zFJIxeo-w1hSShx-21" target="GZCn3zFJIxeo-w1hSShx-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZCn3zFJIxeo-w1hSShx-21" value="Layer 3 Netzwerkschicht&amp;nbsp;&lt;br&gt;(Network Layer)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="880" width="320" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="GZCn3zFJIxeo-w1hSShx-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GZCn3zFJIxeo-w1hSShx-23" target="GZCn3zFJIxeo-w1hSShx-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZCn3zFJIxeo-w1hSShx-23" value="Funktion" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="880" width="584" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="GZCn3zFJIxeo-w1hSShx-24" value="Die Frames aus Layer 2 werden „entpackt“, und der IP-Header wird betrachtet.&#xa;&#xa;Enthalten sind:&#xa;&#xa;IP-Adresse Quelle (Absender im Netzwerk)&#xa;&#xa;IP-Adresse Ziel (Empfänger im Netzwerk, auch über mehrere Netze hinweg)&#xa;&#xa;Weitere Infos: TTL (Time to Live), Fragmentierung, Protokoll (z. B. TCP/UDP im Layer 4)&#xa;&#xa;Router oder Layer-3-Switch entscheiden anhand der Routing-Tabelle, welchen Weg das Paket nimmt.&#xa;&#xa;Falls das Ziel in einem anderen Subnetz liegt: Weiterleitung an den nächsten Router-Hop.&#xa;&#xa;Bekannte Protokolle: IPv4, IPv6, ICMP (Ping), OSPF, BGP." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="GZCn3zFJIxeo-w1hSShx-23">
+          <mxGeometry x="7" y="40" width="570" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="GZCn3zFJIxeo-w1hSShx-26" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1220" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GZCn3zFJIxeo-w1hSShx-25" value="Wichtig: Layer 3 macht die Ende-zu-Ende-Kommunikation über verschiedene Netzwerke hinweg möglich." style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1235" width="330" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
