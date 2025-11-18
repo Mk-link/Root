@@ -8,7 +8,7 @@ while True:
         continue
     if Alter < 18:
         print("Kein Zugang")
-        break
+        
     else:
         print("Willkommen")
         break
