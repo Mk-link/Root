@@ -69,7 +69,7 @@ def print_invoice(cart: dict):
     print(f"Datum: {now}\n")
 
     total = 0.0
-    # Kopfzeile: Pos., Artikel, Stck., Einzelpreis (Summe-Spalte entfernt)
+    # Kopfzeile: Pos., Artikel, Stck., Einzelpreis 
     print(f"{'Pos.':<4} {'Artikel':<20} {'Stck.':>5} {'Einzelpreis':>14}")
     print("-" * 60)
 
@@ -78,7 +78,7 @@ def print_invoice(cart: dict):
         unit = info['price']
         line_total = qty * unit
         total += line_total
-        # Einzelpreis in der letzten Spalte (Summe-Spalte entfernt)
+        # Einzelpreis in der letzten Spalte 
         print(f"{i:<4} {name:<20} {qty:>5} {format_euro(unit):>14}")
 
     print("-" * 60)
